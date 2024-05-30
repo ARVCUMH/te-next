@@ -1,0 +1,23 @@
+name: "usl"
+labels:
+  0 : "non-traversable"
+  1 : "traversable"
+  
+color_map: # bgr
+  0 : [0, 0, 0]
+  1 : [0, 0, 255]
+
+learning_map:
+  0 : 0     
+  1 : 1    
+learning_map_inv: # inverse of previous map
+  0: 0      
+  1: 1     
+
+split: # sequence numbers
+  valid:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
